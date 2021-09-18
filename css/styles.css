@@ -1,0 +1,108 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navigation Bar */
+.logoimage{
+    width: 8%;
+}
+
+
+.navbar{
+    /*font-family: 'Ubuntu', sans-serif;*/
+    padding:0 0 4rem;
+}
+
+#navbarContainer{
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-brand{
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item{
+    padding: 0 20px;
+}
+
+#NavBarLastItem{
+    padding-right: 0;
+}
+
+
+/* Title Section */
+
+#title{
+    background-color: #141E61;
+    color: #EEEEEE;
+}
+
+.lightTitle{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    margin: auto ;
+}
+
+.container-fluid{
+    padding: 1% 10%;
+}
+
+.titleSectionText{
+    /*font-family: 'Ubuntu', sans-serif;*/
+    font-size: 1.1rem;
+}
+
+.titleImage{
+    width: 100%;
+}
+
+/* Buy Button */
+
+.buy-button{
+    /*font-family: 'Ubuntu', sans-serif;*/
+    margin: 3% 3% 5% 0;
+    background-color: #610094;
+    border-color: #3F0071;
+}
+
+
+.buy-button:hover{
+    background-color: #3F0071;
+    border-color: #3F0071;
+}
+
+.button-image{
+    transform: rotate(-25deg);
+    padding-right: 10px;
+}
+
+/* Features Section */
+#features{
+   padding: 7% 5%;
+}
+.features-image{
+    font-size: 4rem;
+    padding: 20px 0;
+    color: #610094;
+}
+
+.features-image:hover{
+    color: #3F0071;
+}
+
+.features-h3{
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.features-col{
+    padding: 0 5%;
+}
+
+.features-p{
+    color: #8f8f8f;
+}
