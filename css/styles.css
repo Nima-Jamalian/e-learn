@@ -312,3 +312,7 @@ padding-top: 3%;
 .footer-link{
     text-decoration: none;
 }
+
+.footer-link:hover{
+    color: #0c1341;
+}
