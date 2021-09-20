@@ -207,7 +207,47 @@ padding-top: 3%;
    color: #EEEEEE;
 }
 
-.price-card:hover{
+.price-card-button{
+    color: #EEEEEE;
+    background-color: #141E61 ; 
+}
+
+.price-card-button:hover{
     color: #EEEEEE;
     background-color: #0e1542 ; 
+}
+
+/* Requirements section */
+
+#requirements{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #141E61;
+    color: #EEEEEE;
+    text-align: center;
+    list-style: inside;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.requirement-list{
+    line-height: 3;
+    list-style: none;
+}
+
+/*  Footer section  */
+
+#footer{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #141E61;
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 0.3;
+    padding-bottom: 10px;
+  
+}
+
+.footer-link{
+    text-decoration: none;
+
 }
