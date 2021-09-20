@@ -1,3 +1,5 @@
+
+
 .body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -262,6 +264,46 @@ padding-top: 3%;
   
 }
 
+.social-icon{
+    color: #141E61;
+    font-size: 2rem;
+    padding: 1% 1%;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-icon.fa-linkedin:hover{
+    color: #0c1341;
+    transform: scale(1.5);
+}
+
+.social-icon.fa-facebook-f:hover{
+    color: #0c1341;
+    transform: scale(1.5);
+}
+
+.social-icon.fa-twitter:hover{
+    color: #0c1341;
+    transform: scale(1.5);
+}
+
+.social-icon.fa-instagram:hover{
+    color: #0c1341;
+    transform: scale(1.5);
+}
+
+.social-icon.fa-github:hover{
+    color: #0c1341;
+    transform: scale(1.5);
+}
+
+.social-icon.fa-envelope:hover{
+    color: #0c1341;
+    transform: scale(1.5);
+}
+
+.copy-right{
+    margin-top: 30px;
+}
 .footer-link{
     text-decoration: none;
 }
