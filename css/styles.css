@@ -296,6 +296,11 @@ padding-top: 3%;
     transform: scale(1.5);
 }
 
+.social-icon.fa-youtube:hover{
+    color: #0c1341;
+    transform: scale(1.5);
+}
+
 .social-icon.fa-envelope:hover{
     color: #0c1341;
     transform: scale(1.5);
