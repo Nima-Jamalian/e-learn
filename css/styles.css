@@ -37,6 +37,12 @@ h2{
     padding-right: 0;
 }
 
+@media (max-width:991px){
+    .navbar{
+        padding:0 0 0;
+    }
+}
+
 
 /* Title Section */
 
@@ -66,6 +72,7 @@ h2{
 .titleImage{
     width: 100%;
 }
+
 
 /* Buy Button */
 
