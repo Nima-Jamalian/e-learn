@@ -1,318 +1,309 @@
-
-
-.body{
-    font-family: 'Montserrat', sans-serif;
+.body {
+  font-family: "Montserrat", sans-serif;
 }
 
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 2.5rem;
-    line-height: 1.5;
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
 }
 
 /* Navigation Bar */
-.logoimage{
-    width: 8%;
+.logoimage {
+  width: 8%;
 }
 
-
-.navbar{
-    /*font-family: 'Ubuntu', sans-serif;*/
-    padding:0 0 4rem;
+.navbar {
+  /*font-family: 'Ubuntu', sans-serif;*/
+  padding: 0 0 4rem;
 }
 
-#navbarContainer{
-    padding-right: 0;
-    padding-left: 0;
+#navbarContainer {
+  padding-right: 0;
+  padding-left: 0;
 }
-.navbar-brand{
-    font-weight: 900;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.nav-item{
-    padding: 0 20px;
+.navbar-brand {
+  font-weight: 900;
+  font-family: "Ubuntu", sans-serif;
 }
 
-#NavBarLastItem{
-    padding-right: 0;
+.nav-item {
+  padding: 0 20px;
 }
 
-@media (max-width:991px){
-    .navbar{
-        padding:0 0 0;
-    }
+#NavBarLastItem {
+  padding-right: 0;
 }
 
+@media (max-width: 991px) {
+  .navbar {
+    padding: 0 0 0;
+  }
+}
 
 /* Title Section */
 
-#title{
-    background-color: #141E61;
-    color: #EEEEEE;
+#title {
+  background-color: #141e61;
+  color: #eeeeee;
 }
 
-.lightTitle{
-
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: 900;
-    margin: auto ;
+.lightTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  margin: auto;
 }
 
-.container-fluid{
-    padding: 1% 10%;
+.container-fluid {
+  padding: 1% 10%;
 }
 
-.titleSectionText{
-    /*font-family: 'Ubuntu', sans-serif;*/
-    font-size: 1.1rem;
+.titleSectionText {
+  /*font-family: 'Ubuntu', sans-serif;*/
+  font-size: 1.1rem;
 }
 
-.titleImage{
-    width: 100%;
+.titleImage {
+  width: 100%;
 }
-
 
 /* Buy Button */
 
-.buy-button{
-    /*font-family: 'Ubuntu', sans-serif;*/
-    margin: 3% 3% 5% 0;
-    background-color: #610094;
-    border-color: #3F0071;
-    color: #EEEEEE;
+.buy-button {
+  /*font-family: 'Ubuntu', sans-serif;*/
+  margin: 3% 3% 5% 0;
+  background-color: #610094;
+  border-color: #3f0071;
+  color: #eeeeee;
 }
 
-
-.buy-button:hover{
-    color: #EEEEEE;
-    background-color: #3F0071;
-    border-color: #3F0071;
+.buy-button:hover {
+  color: #eeeeee;
+  background-color: #3f0071;
+  border-color: #3f0071;
 }
 
-.button-image{
-    transform: rotate(-25deg);
-    padding-right: 10px;
+.button-image {
+  transform: rotate(-25deg);
+  padding-right: 10px;
 }
 
 /* Features Section */
-#features{
-   padding: 7% 5%;
+#features {
+  padding: 7% 5%;
 }
-.features-image{
-    font-size: 4rem;
-    padding: 20px 0;
-    color:#141E61;
-}
-
-.features-image:hover{
-    color: #0e1542;
+.features-image {
+  font-size: 4rem;
+  padding: 20px 0;
+  color: #141e61;
 }
 
-.features-h3{
-    font-weight: 900;
-    font-family: 'Montserrat', sans-serif;
+.features-image:hover {
+  color: #0e1542;
 }
 
-.features-col{
-    padding: 0 5%;
+.features-h3 {
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
 }
 
-.features-p{
-    color: #8f8f8f;
+.features-col {
+  padding: 0 5%;
+}
+
+.features-p {
+  color: #8f8f8f;
 }
 
 /* Testimonials Section */
 
-#testimonials{
-    
-    text-align: center;
-    background-color: #141E61;
-    color: #EEEEEE;
+#testimonials {
+  text-align: center;
+  background-color: #141e61;
+  color: #eeeeee;
 }
 
-.testimonials-heading{
-    padding-top: 3%;
+.testimonials-heading {
+  padding-top: 3%;
 }
 
-#testimonial-carousel{
-    object-fit:cover;
+#testimonial-carousel {
+  object-fit: cover;
 }
-.testimonials-tex{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 1;
-    font-size: 1rem;
-    line-height: 1.5;
+.testimonials-tex {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 1;
+  font-size: 1rem;
+  line-height: 1.5;
 }
-.testimonialImage{
-    width: 10rem;
-    border-radius: 100%;
-    margin: 20px;
-}
-
-.compony-logo{
-    display:block; 
-    width: 10rem;
-    margin: auto;
-    padding-top: 2%;
-    padding-bottom: 2%;
+.testimonialImage {
+  width: 10rem;
+  border-radius: 100%;
+  margin: 20px;
 }
 
-.carousel-item{
-    padding: 0% 10%;
+.compony-logo {
+  display: block;
+  width: 10rem;
+  margin: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.carousel-item {
+  padding: 0% 10%;
 }
 
 /* Press Section  */
 
-#press{
-    background-color: #141E61;
-    color: #EEEEEE;
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
+#press {
+  background-color: #141e61;
+  color: #eeeeee;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
-.press-images{
-    width: 15%;
-    margin: 20px 20px 50px;
+.press-images {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 
-.graduates-heading{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 1.5;
+.graduates-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 /* Pricing Section */
 
-#pricing{
-    padding: 0 10%;
-    text-align: center;
+#pricing {
+  padding: 0 10%;
+  text-align: center;
 }
 
-.pricing-heading{
-padding-top: 3%;
+.pricing-heading {
+  padding-top: 3%;
 }
-.pricing-cards{
-    padding-top: 3%;
-}
-
-.andriod-card{
-    color: #32DE84;
+.pricing-cards {
+  padding-top: 3%;
 }
 
-.apple-icon-card{
-    color:white;
+.andriod-card {
+  color: #32de84;
 }
 
-.apple-card{
-    color:black;
+.apple-icon-card {
+  color: white;
 }
 
-.web-card{
-    color: #4287f5;
+.apple-card {
+  color: black;
 }
 
-.price-card{
-   background-color:#141E61 ; 
-   color: #EEEEEE;
+.web-card {
+  color: #4287f5;
 }
 
-.price-card-button{
-    color: #EEEEEE;
-    background-color: #141E61 ; 
+.price-card {
+  background-color: #141e61;
+  color: #eeeeee;
 }
 
-.price-card-button:hover{
-    color: #EEEEEE;
-    background-color: #0e1542 ; 
+.price-card-button {
+  color: #eeeeee;
+  background-color: #141e61;
+}
+
+.price-card-button:hover {
+  color: #eeeeee;
+  background-color: #0e1542;
 }
 
 /* Requirements section */
 
-#requirements{
-    font-family: 'Montserrat', sans-serif;
-    background-color: #141E61;
-    color: #EEEEEE;
-    text-align: center;
-    list-style: inside;
-    padding-top: 3%;
-    padding-bottom: 3%;
+#requirements {
+  font-family: "Montserrat", sans-serif;
+  background-color: #141e61;
+  color: #eeeeee;
+  text-align: center;
+  list-style: inside;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
-.requirement-list{
-    line-height: 3;
-    list-style: none;
+.requirement-list {
+  line-height: 3;
+  list-style: none;
 }
 
 /*  Footer section  */
 
-#footer{
-    font-family: 'Montserrat', sans-serif;
-    /* background-color: #141E61;
+#footer {
+  font-family: "Montserrat", sans-serif;
+  /* background-color: #141E61;
     color: #EEEEEE; */
-    padding-top: 4%;
-    margin-bottom: 4%;
-    text-align: center;
-    font-size: 0.8rem;
-    line-height: 1;
-    padding-bottom: 10px;
-  
+  padding-top: 4%;
+  margin-bottom: 4%;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1;
+  padding-bottom: 10px;
 }
 
-.social-icon{
-    color: #141E61;
-    font-size: 2rem;
-    padding: 1% 1%;
-    transition: all 0.2s ease-in-out;
+.social-icon {
+  color: #141e61;
+  font-size: 2rem;
+  padding: 1% 1%;
+  transition: all 0.2s ease-in-out;
 }
 
-.social-icon.fa-linkedin:hover{
-    color: #0c1341;
-    transform: scale(1.5);
+.social-icon.fa-linkedin:hover {
+  color: #0c1341;
+  transform: scale(1.5);
 }
 
-.social-icon.fa-facebook-f:hover{
-    color: #0c1341;
-    transform: scale(1.5);
+.social-icon.fa-facebook-f:hover {
+  color: #0c1341;
+  transform: scale(1.5);
 }
 
-.social-icon.fa-twitter:hover{
-    color: #0c1341;
-    transform: scale(1.5);
+.social-icon.fa-twitter:hover {
+  color: #0c1341;
+  transform: scale(1.5);
 }
 
-.social-icon.fa-instagram:hover{
-    color: #0c1341;
-    transform: scale(1.5);
+.social-icon.fa-instagram:hover {
+  color: #0c1341;
+  transform: scale(1.5);
 }
 
-.social-icon.fa-github:hover{
-    color: #0c1341;
-    transform: scale(1.5);
+.social-icon.fa-github:hover {
+  color: #0c1341;
+  transform: scale(1.5);
 }
 
-.social-icon.fa-youtube:hover{
-    color: #0c1341;
-    transform: scale(1.5);
+.social-icon.fa-youtube:hover {
+  color: #0c1341;
+  transform: scale(1.5);
 }
 
-.social-icon.fa-envelope:hover{
-    color: #0c1341;
-    transform: scale(1.5);
+.social-icon.fa-envelope:hover {
+  color: #0c1341;
+  transform: scale(1.5);
 }
 
-.copy-right{
-    margin-top: 30px;
+.copy-right {
+  margin-top: 30px;
 }
-.footer-link{
-    text-decoration: none;
+.footer-link {
+  text-decoration: none;
 }
 
-.footer-link:hover{
-    color: #0c1341;
+.footer-link:hover {
+  color: #0c1341;
 }
