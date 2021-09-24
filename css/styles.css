@@ -13,10 +13,7 @@ h2 {
 .logoimage {
   position: absolute;
   width: 3rem;
-  background-color:  hsl(0, 0%, 0%, 0);
   z-index: 0;
-
-  
 }
 
 .logoimage:hover ~ .logoShadow{
