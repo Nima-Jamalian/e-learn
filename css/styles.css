@@ -25,7 +25,7 @@ h2 {
 .logoimage:hover ~ .logoShadow{
   position: absolute;
   box-shadow: 25px 5px 20px 15px  yellow;
-  opacity: 0.5;
+  opacity: 0.6;
   z-index: 1;
 }
 
