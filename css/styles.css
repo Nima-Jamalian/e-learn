@@ -11,7 +11,7 @@ h2 {
 
 /* Navigation Bar */
 .logoimage {
-  position: absolute;
+  /* position: absolute; */
   width: 3rem;
   transition: transform 0.3s ease;
   transform: translateY(0px);
@@ -24,7 +24,7 @@ h2 {
 /* 10 */
 .logoimage:hover ~ .logoShadow{
   position: absolute;
-  box-shadow: 25px 5px 20px 15px  yellow;
+  box-shadow: -25px 5px 20px 15px  yellow;
   opacity: 0.6;
   z-index: 1;
 }
