@@ -24,7 +24,6 @@ h2 {
   transition: opacity 6s;
   -webkit-transition: opacity 6s;
   opacity: 0;
-
   box-shadow: -25px 10px 20px 15px  yellow;
   z-index: 1;
 }
