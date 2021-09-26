@@ -22,14 +22,12 @@ h2 {
 .logoShadowBegining{
   position: absolute;
   opacity: 1;
-  -webkit-transition: opacity 6s;
-  -moz-transition: opacity 6s;
-  -o-transition: opacity 6s;
-  transition: opacity 6s;
+  transition: opacity 6s ease;
   opacity: 0.5;
   box-shadow: -25px 10px 20px 15px  yellow;
   z-index: 1;
 }
+
 
 
 .logoimage:hover{
@@ -40,7 +38,7 @@ h2 {
 .logoimage:hover ~ .logoShadow{
   position: absolute;
   box-shadow: -25px 5px 20px 15px  yellow;
-  opacity: 0.6;
+  opacity: 0.2;
   z-index: 1;
 }
 
