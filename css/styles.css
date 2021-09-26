@@ -21,14 +21,21 @@ h2 {
 
 .logoShadowBegining{
   position: absolute;
-  opacity: 1;
-  transition: opacity 6s ease;
-  opacity: 0.5;
+  animation: fadeOutAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
   box-shadow: -25px 10px 20px 15px  yellow;
   z-index: 1;
 }
 
-
+@keyframes fadeOutAnimation {
+  0% {
+      opacity: 0.9;
+  }
+  100% {
+      opacity: 0.4;
+   }
+}
 
 .logoimage:hover{
   transform: translateY(-5px);
