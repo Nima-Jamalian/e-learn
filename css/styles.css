@@ -18,12 +18,15 @@ h2 {
   z-index: 0;
 }
 
+
 .logoShadowBegining{
   position: absolute;
-  opacity: 0.5;
+  opacity: 1;
+  -webkit-transition: opacity 6s;
+  -moz-transition: opacity 6s;
+  -o-transition: opacity 6s;
   transition: opacity 6s;
-  -webkit-transform: opacity 6s;
-  opacity: 0;
+  opacity: 0.5;
   box-shadow: -25px 10px 20px 15px  yellow;
   z-index: 1;
 }
